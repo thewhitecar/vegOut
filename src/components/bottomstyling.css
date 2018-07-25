@@ -1,0 +1,106 @@
+
+.bottom{
+width: 97.5%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 12px;
+height: auto;
+background-color: #94A6BA;
+flex-direction : column;
+justify-content : center;
+}
+
+.bottomimages{
+    width: 100%;
+    background-color: #94A6BA;
+}
+
+.results{
+    width: 97.5%;
+    margin: auto;
+    margin-top: 12px;
+    height: auto;
+    background-color: green;
+}
+
+.search-bar-div-styling{
+    width: 97.5%;
+    background-color: #94A6BA;
+    margin: auto;
+    padding-bottom: 5vh;
+
+}
+
+.results-styling{
+    width: 97.5%;
+    background-color: #94A6BA;
+    height: 100px;
+    margin: auto;
+}
+
+.loading{
+    width: 97.5%;
+    margin: auto;
+    margin-top: 12px;
+    height: 30vh;
+    background-color: #94A6BA;
+    flex-direction : column;
+    justify-content : center;
+}
+
+.loading-image{
+    background-image: url('https://www.freeiconspng.com/uploads/load-icon-png-8.png');
+    background-size: cover;
+}
+
+
+.recipe{
+    margin-top: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.source{
+    margin-top: -14px;
+    font-family: 'Roboto', sans-serif;
+}
+.image{
+    margin-top: 0px;
+    padding-bottom: 10px;
+    height: 150px;
+    width: 150px;
+}
+.link{
+    margin-top: 0px;
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.favorites{
+    background-color: #94A6BA;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ingredients{
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+    margin-top: 12px;
+    padding-left: 12px;
+    margin-left: 11px;
+    background-color: #94A6BA;
+    width: 50%;
+    height: auto;
+}
+
+.right{
+    margin-left: 12px;
+}
+

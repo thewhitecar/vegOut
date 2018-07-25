@@ -1,0 +1,23 @@
+{
+  "name": "veg-out",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3008",
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-geolocation": "^1.0.3",
+    "react-scripts": "1.1.4",
+    "react-star-rating-component": "^1.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

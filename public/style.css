@@ -1,0 +1,44 @@
+
+#topouterbox{
+    margin-top: 8px;
+    height:250px;
+    width:100%;
+    background-color:rgb(51,74,92);
+    overflow: hidden;
+}
+
+#topouterbox #bannerbox{
+    position: relative;
+    width: 98%;
+    height: 98%;
+    background-size: cover;
+    background-image: url("./vegoutbanner.png");
+    background-position: top;
+    margin: auto;
+    overflow: none !important;
+    overflow-x: none !important;
+    overflow-y: none !important;
+}
+
+#maincontainer{
+margin-top: 12px;
+height:auto;
+width:100%;
+background-color:rgb(51,74,92)
+}
+
+#bar{
+    height: 12px;
+    background-color:rgb(51,74,92);
+
+}
+
+#bottombox{
+    height: 90px;
+    width: 98%;
+    background-color: #94A6BA;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin: auto auto;  
+    display: flex;
+}

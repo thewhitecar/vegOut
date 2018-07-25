@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before{
+    font-family:'FontAwesome', sans-serif;
+}
+
+@red: #9a1323;
+@skyblue:#128cc9;
+
+body{
+    font-size:62.5%
+}
+
+nav{
+    margin:30px;
+    padding: 0 20px;
+    margin: auto auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    background-color:#94A6BA;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px #94A6BA;
+    -webkit-box-shadow: inset 0px 0px 10px #94A6BA;;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 5px;
+    border: 0px solid #94A6BA;
+    border-radius: 30px;
+    background-color: #94A6BA;
+    box-shadow: inset 0px 0px 10px #128cc9;
+    -webkit-box-shadow: inset 0px 0px 10px #128cc9;
+    min-width: 20px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+nav ul li div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px solid white;
+    border-radius: 30px;
+    background-color: #128cc9;
+    -webkit-transition: width 1s, hieght 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s;
+}
+
+nav ul li a{
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    -webkit-transition: top 1s, left 1s;
+    transition: top 1s, left 1s;
+}
+
+nav ul li a span{
+    font-size: 1.9em;
+    color: white;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+nav ul li:hover div{
+    width: 0px;
+    height: 0px;
+    top: 25px;
+    left: 25px;
+}
+
+nav ul li:hover a{
+    color: #94A6BA;
+    top: -10px;
+    left: -10px;
+}
+
+nav ul li:hover a span{
+    color: #128cc9;
+}
